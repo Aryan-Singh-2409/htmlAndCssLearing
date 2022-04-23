@@ -1,0 +1,33 @@
+body{
+    font-size: 18px;
+    font-family: Helvetica;
+    background-color:lightgray;
+}
+.Table1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 7px, 10px;
+    border-top: 3px dotted rgb(28, 29, 29);
+    border-bottom: 2px solid brown;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    text-align: center;
+    background-color: white;
+}
+table.th{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.Table2{
+    background-color: white;
+    border-spacing: 5px 15px;
+    text-align: center;
+    border: 2px solid;
+    padding: 5px;
+    border-collapse: collapse;
+}
+td{
+    border: 2px solid red;
+    /* padding: 5px; */
+}

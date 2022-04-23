@@ -1,0 +1,48 @@
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    color: darkblue;
+    /* text-align: center; */
+}
+input{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input:focus{
+    background-color: aliceblue;
+    border: 3px white;
+}
+input#Submit{
+    background-color: rgba(253, 255, 253, 0.658);
+    font-size: 8px;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+input#Submit:hover{
+    color: rgb(247, 239, 239);
+    background-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.Aligning{
+    border-bottom: 1px solid #efefef;
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 260px;
+}
+#RadioButtons label {
+    float: none;
+    text-align: right;
+}
+hr{
+    background-color: rgb(255, 255, 255);
+    border-style: dashed;
+    width: 100;
+    /* margin-left: 50px; */
+}
